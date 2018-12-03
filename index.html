@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<title>Patron de estrellas</title>
+<div style="background-color:lightblue;color:black;padding:20px;width=15px;">
+<h2>Patrones</h2>
+
+<p id="demo"></p>
+</div>
+<script>
+var text = "";
+var i;
+for (i = 1; i <= 8; i++) 
+{
+   for(x=1;x<=i;x++)
+      {
+         text += "*";
+      }
+         text += "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
